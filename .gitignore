@@ -1,0 +1,22 @@
+# Obsidian local config (per-user, don't commit)
+.obsidian/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive — never commit personal data into a vault you push
+# (ignore contents but keep the directory structure via .gitkeep)
+inbox/*
+daily-brief/*
+!inbox/.gitkeep
+!daily-brief/.gitkeep
+
+# Backups
+*.bak
