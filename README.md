@@ -4,7 +4,7 @@
 
 Si tu utilises Claude (Code et/ou Chat) plusieurs fois par jour, tu connais le problème : à chaque session, tu re-briefes le contexte. Tes décisions, tes apprentissages, tes méthodes — tout disparaît avec la session courante.
 
-Ce template installe en **1h** un système de mémoire externe que Claude lit et enrichit à travers toutes tes sessions. Testé en production sur un projet réel (marketplace P2P à Bali).
+Ce template installe en **1h** un système de mémoire externe que Claude lit et enrichit à travers toutes tes sessions. Testé en production sur un projet réel (marketplace P2P).
 
 ## Ce que tu vas avoir
 
@@ -24,19 +24,31 @@ Solopreneurs, builders, créateurs IA-first qui :
 - Prennent des décisions structurantes en cours de route
 - N'ont pas d'équipe pour mémoriser à leur place
 
-## Comment l'utiliser
+## Comment l'utiliser — méthode one-shot (recommandée)
 
-1. **Clone ce repo** dans un dossier temporaire :
-   ```
-   git clone https://github.com/{{ ton-user }}/claude-memory-layer.git
-   cd claude-memory-layer
-   ```
-2. **Ouvre une session Claude Code** dans n'importe quel dossier
-3. **Colle le contenu de [`SETUP_PROMPT.md`](./SETUP_PROMPT.md)** comme premier message — Claude te guide en 5 phases (1h-1h30)
+Tu n'as **rien à faire en terminal**. Ouvre une session Claude Code, colle le mini-prompt ci-dessous, Claude Code s'occupe du reste (clone du repo, lecture du SETUP_PROMPT, exécution).
 
-À la fin, tu as ton vault opérationnel à `~/Documents/obsidian-vault` (ou ailleurs si tu changes le chemin), tes slash commands installés, et tu peux taper `/recap` depuis n'importe quelle session pour briefer Claude sur ton état du moment.
+```
+Installe-moi le memory layer claude-memory-layer.
 
-## La méthode en 5 étapes
+1. Clone https://github.com/melvinprre/claude-memory-layer.git dans ~/Projects/
+   (crée ~/Projects si besoin, skip le clone si le repo existe déjà)
+2. Lis le fichier SETUP_PROMPT.md du repo cloné
+3. Identifie le bloc entre "## DÉBUT DU PROMPT — copier à partir d'ici"
+   et "## FIN DU PROMPT — copier jusqu'ici"
+4. Adopte ce bloc comme tes instructions et exécute la séquence
+   strictement dans l'ordre, en commençant par Phase 0.
+```
+
+Claude te guide ensuite en 6 phases (Phase 0 → A → A.5 → B → C → D → E, plus F optionnelle). Compter **1h-1h30**.
+
+**💡 Astuce qui change tout** : quand Claude te pose les 8 questions de Phase A, **ne réponds pas de tête**. Colle le formulaire dans une session existante avec ton IA principale (celle où tu as déjà discuté de tes projets) et fais-la répondre avec tout son contexte sur toi. Tu ramènes ses réponses dans la session d'install. Memory layer 5x plus riche.
+
+Le guide complet : [`INSTALL.md`](./INSTALL.md). Méthode manuelle (fallback) également documentée là-bas.
+
+À la fin : vault opérationnel à `~/Documents/obsidian-vault` (ou ton chemin custom), 6 slash commands installés, `/recap` disponible depuis n'importe quelle session Claude Code.
+
+## La méthode pédagogique
 
 Détaillée dans [`projects/formation-memory-layer/process/`](./projects/formation-memory-layer/process/) :
 
@@ -74,7 +86,7 @@ MIT — fais-en ce que tu veux. Si tu adaptes le template, un lien retour est ap
 
 ## Genèse
 
-Construit à partir d'un memory layer perso testé en production sur le projet [BaliKula](https://github.com/{{ ton-user }}) (marketplace de location P2P à Bali). La méthode est extraite, sanitisée, et packagée pour être réutilisable par n'importe qui qui builde sérieusement avec Claude.
+Construit à partir d'un memory layer perso testé en production sur un produit réel (marketplace P2P). La méthode est extraite, sanitisée, et packagée pour être réutilisable par n'importe qui qui builde sérieusement avec Claude.
 
 ## Contribuer / Feedback
 

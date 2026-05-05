@@ -39,7 +39,7 @@ Voir aussi : [[../key-insights/granularite-fine-vs-pre-decoupage]].
 
 **Question** : `decisions/` global vs `projects/X/decisions.md` local à chaque projet ?
 
-**Choix** : un seul `decisions/` au top-level, avec `scope:` dans le frontmatter (`scope: balikula`, `scope: career`, `scope: client-xyz`...).
+**Choix** : un seul `decisions/` au top-level, avec `scope:` dans le frontmatter (`scope: produit-x`, `scope: career`, `scope: client-xyz`...).
 
 **Pourquoi** :
 - Évite la duplication ("je mets cette décision où ? dans projects/X/ ou dans decisions/ ?")

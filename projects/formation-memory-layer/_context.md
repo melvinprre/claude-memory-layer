@@ -23,7 +23,7 @@ Et 5 insights clés dans `key-insights/` :
 
 ## Origine
 
-Construit à partir d'un memory layer perso testé en production sur le projet BaliKula (marketplace P2P de location à Bali). Sanitisé et packagé pour être réutilisable.
+Construit à partir d'un memory layer perso testé en production sur un produit réel (marketplace P2P). Sanitisé et packagé pour être réutilisable.
 
 ## À toi de jouer
 

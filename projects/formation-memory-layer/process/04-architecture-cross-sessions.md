@@ -60,7 +60,7 @@ Comme `~/.claude/CLAUDE.md` est chargé par toutes tes sessions, **toutes tes se
 
 ## Conséquence pratique
 
-Tu codes ton produit (par exemple BaliKula) dans Claude Code. Tu prends une décision tech qui cadre le projet. Tu tapes `/decision` dans ta session de dev. Le formulaire groupé apparaît. Tu remplis. Le fichier est créé dans `~/Documents/obsidian-vault/decisions/2026-04-XX-...md`.
+Tu codes ton produit dans Claude Code. Tu prends une décision tech qui cadre le projet. Tu tapes `/decision` dans ta session de dev. Le formulaire groupé apparaît. Tu remplis. Le fichier est créé dans `~/Documents/obsidian-vault/decisions/2026-04-XX-...md`.
 
 Tu n'as pas changé de session, tu n'as pas perdu ton contexte de code, et la décision est archivée pour toutes tes futures sessions.
 

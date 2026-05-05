@@ -17,7 +17,7 @@ Le memory layer va t'accompagner pendant des années. Une structure mal pensée 
 
 Si Claude te dit "yes" à tout, tu graves dans le marbre des choix bancals. Si Claude te challenge, tu détectes les pièges avant qu'ils se réalisent.
 
-**Exemple réel (case study BaliKula)** : on a évité une duplication entre `decisions/` global et `projects/X/decisions.md` parce que Claude a flagué le piège ("dès la 3e décision, tu vas hésiter où la mettre"). Sans ce sparring, le projet aurait été refactor obligatoire 3 mois plus tard.
+**Exemple réel (case study marketplace P2P)** : on a évité une duplication entre `decisions/` global et `projects/X/decisions.md` parce que Claude a flagué le piège ("dès la 3e décision, tu vas hésiter où la mettre"). Sans ce sparring, le projet aurait été refactor obligatoire 3 mois plus tard.
 
 ## Comment l'activer
 
