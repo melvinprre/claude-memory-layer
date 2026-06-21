@@ -14,7 +14,7 @@
 ### 1. Cloner le template
 
 ```
-git clone https://github.com/{{ ton-user }}/claude-memory-layer.git ~/claude-memory-layer-tmp
+git clone https://github.com/melvinprre/claude-memory-layer.git ~/claude-memory-layer-tmp
 cd ~/claude-memory-layer-tmp
 ```
 

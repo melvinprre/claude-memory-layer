@@ -11,7 +11,7 @@ J'ai construit un memory layer pour Claude — markdown + git, 6 slash commands 
 
 Plus jamais re-briefer Claude au démarrage d'une session.
 
-Template MIT, clonable, prêt à l'emploi : github.com/{{ ton-user }}/claude-memory-layer
+Template MIT, clonable, prêt à l'emploi : github.com/melvinprre/claude-memory-layer
 ```
 
 ## Twitter / X — thread (4 tweets)
@@ -46,7 +46,7 @@ Template public, MIT, clonable.
 
 Tu colles SETUP_PROMPT.md dans Claude Code, il te guide en 5 phases, tu réponds aux questions, à la fin ton memory layer est opérationnel.
 
-→ github.com/{{ ton-user }}/claude-memory-layer
+→ github.com/melvinprre/claude-memory-layer
 
 Feedback bienvenus.
 ```
@@ -82,7 +82,7 @@ Le template est livré avec :
 
 Construit à partir d'un memory layer perso testé sur un produit en production (marketplace P2P à Bali). Sanitisé et packagé pour être réutilisable.
 
-→ Repo : github.com/{{ ton-user }}/claude-memory-layer
+→ Repo : github.com/melvinprre/claude-memory-layer
 
 Si tu utilises Claude au quotidien, dis-moi ce que tu en penses. Je continue à itérer.
 ```
